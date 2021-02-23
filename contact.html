@@ -17,21 +17,22 @@
                 </ul> 
             </nav>
             <main class="soft-border">
-                <form name="contact" method="post" data-netlify="true">
+              <form name="contact" method="post" data-netlify="true">
                     <p>
                         <label for="name">Enter your name</label><br>
-                        <input type="name"/>
+                        <input type="text" name="name"/>
                     </p>    
                     <p>
                         <label for="email">Enter your email:</label><br>
-                        <input type="email"/><br>
+                        <input type="email" name="email"/><br>
                     </p>    
                     <p>
-                        <textarea name="message" rows="10" cols="30"> Enter your message:
-                        </textarea>
+                        <label for="message"> Message</label>
+                            <textarea name="message" rows="10" cols="30">
+                            </textarea>
                     </p>
                     <p>    
-                        <input type="submit"/>
+                        <input type="submit" name="submit"/>
                     </p>  
                 </form>
                     <p>
